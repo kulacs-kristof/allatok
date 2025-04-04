@@ -1,4 +1,6 @@
-﻿using System.Text;
+﻿using System.Collections.ObjectModel;
+using System.IO;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -16,9 +18,17 @@ namespace AllatokCsoportMunka
     /// </summary>
     public partial class MainWindow : Window
     {
+        ObservableCollection<Allat> Allatok { get; set; } = new ObservableCollection<Allat>();
         public MainWindow()
         {
             InitializeComponent();
+            string[] sorok = File.ReadAllLines("allatok.csv");
+            foreach (string s in sorok.Skip(1))
+            {
+                Allat al = new Allat(s);
+                Allatok.Add(al);
+            }
+            DataContext = this;
         }
     }
 }

@@ -12,15 +12,16 @@
             <RowDefinition Height="3*"/>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        <DataGrid Grid.Row="1" ItemsSource="{Binding Allatok}" Width="600">
+        <DataGrid Grid.Row="1" ItemsSource="{Binding Allatok}" Width="600" IsReadOnly="True" AutoGenerateColumns="False">
             <DataGrid.Columns>
-                <DataGridTextColumn Header="Név" Width="*"/>
-                <DataGridTextColumn Header="Kontinens(ek)" Width="1.5*"/>
-                <DataGridTextColumn Header="Élettartam" Width="*"/>
-                <DataGridTextColumn Header="Táplálék" Width="*"/>
-                <DataGridTextColumn Header="Osztály" Width="*"/>
+                <DataGridTextColumn Header="Név" Width="*" Binding="{Binding Nev}"/>
+                <DataGridTextColumn Header="Kontinens(ek)" Width="1.5*" Binding="{Binding Kontinens}"/>
+                <DataGridTextColumn Header="Élettartam" Width="*" Binding="{Binding Elettartam}"/>
+                <DataGridTextColumn Header="Táplálék" Width="*" Binding="{Binding Taplalek}"/>
+                <DataGridTextColumn Header="Osztály" Width="*" Binding="{Binding Osztaly}"/>
             </DataGrid.Columns>
         </DataGrid>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="213,48,0,0" Grid.Row="2" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
