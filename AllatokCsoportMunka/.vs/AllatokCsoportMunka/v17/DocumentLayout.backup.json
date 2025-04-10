@@ -1,18 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\AllatokCsoportMunka\\",
+  "WorkspaceRootPath": "C:\\Users\\kulacs.kristof\\source\\repos\\kulacs-kristof\\allatok\\AllatokCsoportMunka\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{20EC7FDD-C408-4ECD-AB4F-0BE97FB29A6E}|AllatokCsoportMunka.csproj|d:\\allatokcsoportmunka\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{20EC7FDD-C408-4ECD-AB4F-0BE97FB29A6E}|AllatokCsoportMunka.csproj|c:\\users\\kulacs.kristof\\source\\repos\\kulacs-kristof\\allatok\\allatokcsoportmunka\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20EC7FDD-C408-4ECD-AB4F-0BE97FB29A6E}|AllatokCsoportMunka.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20EC7FDD-C408-4ECD-AB4F-0BE97FB29A6E}|AllatokCsoportMunka.csproj|c:\\users\\kulacs.kristof\\source\\repos\\kulacs-kristof\\allatok\\allatokcsoportmunka\\allatok.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{20EC7FDD-C408-4ECD-AB4F-0BE97FB29A6E}|AllatokCsoportMunka.csproj|solutionrelative:allatok.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20EC7FDD-C408-4ECD-AB4F-0BE97FB29A6E}|AllatokCsoportMunka.csproj|c:\\users\\kulacs.kristof\\source\\repos\\kulacs-kristof\\allatok\\allatokcsoportmunka\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{20EC7FDD-C408-4ECD-AB4F-0BE97FB29A6E}|AllatokCsoportMunka.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{20EC7FDD-C408-4ECD-AB4F-0BE97FB29A6E}|AllatokCsoportMunka.csproj|d:\\allatokcsoportmunka\\allat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{20EC7FDD-C408-4ECD-AB4F-0BE97FB29A6E}|AllatokCsoportMunka.csproj|c:\\users\\kulacs.kristof\\source\\repos\\kulacs-kristof\\allatok\\allatokcsoportmunka\\allat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{20EC7FDD-C408-4ECD-AB4F-0BE97FB29A6E}|AllatokCsoportMunka.csproj|solutionrelative:allat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{20EC7FDD-C408-4ECD-AB4F-0BE97FB29A6E}|AllatokCsoportMunka.csproj|d:\\allatokcsoportmunka\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{20EC7FDD-C408-4ECD-AB4F-0BE97FB29A6E}|AllatokCsoportMunka.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,28 +26,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Allat.cs",
-              "DocumentMoniker": "D:\\AllatokCsoportMunka\\Allat.cs",
-              "RelativeDocumentMoniker": "Allat.cs",
-              "ToolTip": "D:\\AllatokCsoportMunka\\Allat.cs*",
-              "RelativeToolTip": "Allat.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T11:08:46.375Z",
+              "Title": "allatok.csv",
+              "DocumentMoniker": "C:\\Users\\kulacs.kristof\\source\\repos\\kulacs-kristof\\allatok\\AllatokCsoportMunka\\allatok.csv",
+              "RelativeDocumentMoniker": "allatok.csv",
+              "ToolTip": "C:\\Users\\kulacs.kristof\\source\\repos\\kulacs-kristof\\allatok\\AllatokCsoportMunka\\allatok.csv",
+              "RelativeToolTip": "allatok.csv",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
+              "WhenOpened": "2025-04-09T11:51:38.453Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\AllatokCsoportMunka\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\kulacs.kristof\\source\\repos\\kulacs-kristof\\allatok\\AllatokCsoportMunka\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "D:\\AllatokCsoportMunka\\MainWindow.xaml*",
+              "ToolTip": "C:\\Users\\kulacs.kristof\\source\\repos\\kulacs-kristof\\allatok\\AllatokCsoportMunka\\MainWindow.xaml*",
               "RelativeToolTip": "MainWindow.xaml*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-04-04T11:01:36.384Z",
@@ -51,15 +55,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\AllatokCsoportMunka\\MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\kulacs.kristof\\source\\repos\\kulacs-kristof\\allatok\\AllatokCsoportMunka\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "D:\\AllatokCsoportMunka\\MainWindow.xaml.cs*",
-              "RelativeToolTip": "MainWindow.xaml.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\kulacs.kristof\\source\\repos\\kulacs-kristof\\allatok\\AllatokCsoportMunka\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAABQAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-04T11:01:35.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Allat.cs",
+              "DocumentMoniker": "C:\\Users\\kulacs.kristof\\source\\repos\\kulacs-kristof\\allatok\\AllatokCsoportMunka\\Allat.cs",
+              "RelativeDocumentMoniker": "Allat.cs",
+              "ToolTip": "C:\\Users\\kulacs.kristof\\source\\repos\\kulacs-kristof\\allatok\\AllatokCsoportMunka\\Allat.cs",
+              "RelativeToolTip": "Allat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T11:08:46.375Z",
               "EditorCaption": ""
             }
           ]

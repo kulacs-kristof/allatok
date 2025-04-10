@@ -5,20 +5,20 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:AllatokCsoportMunka"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Állatok" Height="450" Width="800">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition/>
             <RowDefinition Height="3*"/>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        <DataGrid Grid.Row="1" ItemsSource="{Binding Allatok}" Width="600">
+        <DataGrid Grid.Row="1" ItemsSource="{Binding Allatok}" Width="600" AutoGenerateColumns="False" >
             <DataGrid.Columns>
-                <DataGridTextColumn Header="Név" Width="*"/>
-                <DataGridTextColumn Header="Kontinens(ek)" Width="1.5*"/>
-                <DataGridTextColumn Header="Élettartam" Width="*"/>
-                <DataGridTextColumn Header="Táplálék" Width="*"/>
-                <DataGridTextColumn Header="Osztály" Width="*"/>
+                <DataGridTextColumn Header="Név" Width="*" Binding="{Binding Név}"/>
+                <DataGridTextColumn Header="Kontinens(ek)" Width="1.5*" Binding="{Binding Kontinens}"/>
+                <DataGridTextColumn Header="Élettartam" Width="*" Binding="{Binding Elettartam}"/>
+                <DataGridTextColumn Header="Táplálék" Width="*" Binding="{Binding Táplálék}"/>
+                <DataGridTextColumn Header="Osztály" Width="*" Binding="{Binding Osztály}"/>
             </DataGrid.Columns>
         </DataGrid>
 
