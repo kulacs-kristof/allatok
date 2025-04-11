@@ -14,17 +14,18 @@ namespace AllatokCsoportMunka
         public string Táplálék {  get; set; }
         public string Osztály {  get; set; }
 
-        public Allat(string[] sorok)
+        public Allat(string nev, string kontinens, double elettartam, string taplalek, string osztaly)
         {
-            foreach (var sor in sorok.Skip(1))
-            {
-                string[] adatok = sor.Split(";");
-                Név = adatok[0];
-                Kontinens = adatok[1];
-                Elettartam = double.Parse(adatok[2]);
-                Táplálék = adatok[3];
-                Osztály = adatok[4];
-            }
+            this.Név = nev;
+            this.Kontinens = kontinens;
+            this.Elettartam = elettartam;
+            this.Táplálék = taplalek;
+            this.Osztály = osztaly;
+        }
+
+        public Allat()
+        {
+            
         }
     }
 }
