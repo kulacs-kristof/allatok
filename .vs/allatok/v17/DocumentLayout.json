@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "Z:\\allatok\\",
+  "WorkspaceRootPath": "D:\\allatok\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|Z:\\allatok\\AllatokCsoportMunka\\AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\allatok\\AllatokCsoportMunka\\AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AllatokCsoportMunka\\AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|Z:\\allatok\\AllatokCsoportMunka\\App.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\allatok\\AllatokCsoportMunka\\App.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AllatokCsoportMunka\\App.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -28,9 +28,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "AssemblyInfo.cs",
-              "DocumentMoniker": "Z:\\allatok\\AllatokCsoportMunka\\AssemblyInfo.cs",
+              "DocumentMoniker": "D:\\allatok\\AllatokCsoportMunka\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "AllatokCsoportMunka\\AssemblyInfo.cs",
-              "ToolTip": "Z:\\allatok\\AllatokCsoportMunka\\AssemblyInfo.cs",
+              "ToolTip": "D:\\allatok\\AllatokCsoportMunka\\AssemblyInfo.cs",
               "RelativeToolTip": "AllatokCsoportMunka\\AssemblyInfo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -41,9 +41,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "App.xaml.cs",
-              "DocumentMoniker": "Z:\\allatok\\AllatokCsoportMunka\\App.xaml.cs",
+              "DocumentMoniker": "D:\\allatok\\AllatokCsoportMunka\\App.xaml.cs",
               "RelativeDocumentMoniker": "AllatokCsoportMunka\\App.xaml.cs",
-              "ToolTip": "Z:\\allatok\\AllatokCsoportMunka\\App.xaml.cs",
+              "ToolTip": "D:\\allatok\\AllatokCsoportMunka\\App.xaml.cs",
               "RelativeToolTip": "AllatokCsoportMunka\\App.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

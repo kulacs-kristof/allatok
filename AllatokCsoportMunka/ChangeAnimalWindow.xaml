@@ -1,0 +1,38 @@
+﻿<Window x:Class="AllatokCsoportMunka.ChangeAnimalWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AllatokCsoportMunka"
+        mc:Ignorable="d"
+        Title="ChangeAnimalWindow" Height="450" Width="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="4*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Label Content="Név:" HorizontalAlignment="Center"  Grid.Row="1" VerticalAlignment="Center"/>
+        <Label Content="Kontinens:" HorizontalAlignment="Center"  Grid.Row="2" VerticalAlignment="Center"/>
+        <Label Content="Élettartam:" HorizontalAlignment="Center"  Grid.Row="3" VerticalAlignment="Center"/>
+        <Label Content="Táplálék:" HorizontalAlignment="Center"  Grid.Row="4" VerticalAlignment="Center"/>
+        <Label Content="Osztály:" HorizontalAlignment="Center"  Grid.Row="5" VerticalAlignment="Center"/>
+        <TextBox Grid.Column="1" HorizontalAlignment="Center" Grid.Row="1" TextWrapping="Wrap" Text="{Binding Nev}" VerticalAlignment="Center" Width="120" />
+        <TextBox Grid.Column="1" HorizontalAlignment="Center" Grid.Row="2" TextWrapping="Wrap" Text="{Binding Kontinens}" VerticalAlignment="Center" Width="120"/>
+        <TextBox Grid.Column="1" HorizontalAlignment="Center"  Grid.Row="3" TextWrapping="Wrap" Text="{Binding Elettartam}" VerticalAlignment="Center" Width="120"/>
+        <TextBox Grid.Column="1" HorizontalAlignment="Center"  Grid.Row="4" TextWrapping="Wrap" Text="{Binding Taplalek}" VerticalAlignment="Center" Width="120"/>
+        <TextBox Grid.Column="1" HorizontalAlignment="Center"  Grid.Row="5" TextWrapping="Wrap" Text="{Binding Osztaly}" VerticalAlignment="Center" Width="120"/>
+        <Button Content="Mentés" HorizontalAlignment="Center"  Grid.Row="6" VerticalAlignment="Center" Height="56" Width="84" Click="Button_Click"/>
+        <Button Grid.Column="1" Content="Törlés" HorizontalAlignment="Center" Grid.Row="6" VerticalAlignment="Center" Height="56" Width="84"/>
+        <Label Content="Állat adatai:" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Center" Grid.ColumnSpan="2" Width="280"/>
+
+    </Grid>
+</Window>

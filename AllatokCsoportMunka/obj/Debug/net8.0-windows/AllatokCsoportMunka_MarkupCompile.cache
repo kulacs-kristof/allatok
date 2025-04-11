@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-Z:\allatok\AllatokCsoportMunka\obj\Debug\net8.0-windows\
+D:\allatok\AllatokCsoportMunka\obj\Debug\net8.0-windows\
 AllatokCsoportMunka
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-Z:\allatok\AllatokCsoportMunka\App.xaml
-11407045341
+D:\allatok\AllatokCsoportMunka\App.xaml
+2-1042616384
 
-5-1988909206
+6-580968389
 198-556154604
-MainWindow.xaml;
+ChangeAnimalWindow.xaml;MainWindow.xaml;
 
 False
 

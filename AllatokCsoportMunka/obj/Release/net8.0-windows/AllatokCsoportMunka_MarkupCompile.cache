@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-Z:\allatok\AllatokCsoportMunka\obj\Release\net8.0-windows\
+D:\allatok\AllatokCsoportMunka\obj\Release\net8.0-windows\
 AllatokCsoportMunka
 none
 false
 TRACE;RELEASE;NET;NET8_0;NETCOREAPP
-Z:\allatok\AllatokCsoportMunka\App.xaml
-11407045341
+D:\allatok\AllatokCsoportMunka\App.xaml
+2-1042616384
 
-52095982787
+6-791043692
 198-556154604
-MainWindow.xaml;
+ChangeAnimalWindow.xaml;MainWindow.xaml;
 
 True
 

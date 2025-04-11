@@ -38,5 +38,32 @@ namespace AllatokCsoportMunka
                 Allatok.Add(allat);
             }
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            ChangeAnimalWindow changeAnimal = new ChangeAnimalWindow();
+            changeAnimal.ShowDialog();
+            Allatok.Add(changeAnimal.al);
+        }
+
+        private void DataGrid_SelectionChanged(object sender, MouseButtonEventArgs e)
+        {
+            DataGrid dg = (DataGrid)sender;
+            Allat al = dg.SelectedItem as Allat;
+            ChangeAnimalWindow cAnimal = new ChangeAnimalWindow(al);
+            cAnimal.ShowDialog();
+            int absorvableLength = Allatok.Count - 1;
+            for (int i = 0; i <= absorvableLength; i++)
+            {
+                if(i == dg.SelectedIndex)
+                {
+                    if(cAnimal.al.Név != null)
+                    {
+                        Allatok[i] = cAnimal.al;
+                    }
+                }
+            }
+
+        }
     }
 }
